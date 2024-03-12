@@ -12,3 +12,4 @@ C:\Users\autologon\ViniciusJava\ViniciusC#\obj\Debug\net8.0\refint\ViniciusC#.dl
 C:\Users\autologon\ViniciusJava\ViniciusC#\obj\Debug\net8.0\ViniciusC#.pdb
 C:\Users\autologon\ViniciusJava\ViniciusC#\obj\Debug\net8.0\ViniciusC#.genruntimeconfig.cache
 C:\Users\autologon\ViniciusJava\ViniciusC#\obj\Debug\net8.0\ref\ViniciusC#.dll
+C:\Users\autologon\ViniciusJava\ViniciusC#\obj\Debug\net8.0\ViniciusC#.sourcelink.json

@@ -1,7 +1,7 @@
 ﻿/*1. Tipos de variáveis var, int, short, long, decimal, double, bool e string;
 2. Operadores de atribuição, aritméticos, relacionais, lógicos e unários;*/
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
 /*int a = 5;
 int b = 10;
@@ -60,4 +60,36 @@ int larg = Convert.ToInt32(Console.ReadLine());
 int area = larg * alt;
 
 Console.WriteLine("Area: " + area);*/
+
+
+//declaração da função
+static void Executar()
+{
+
+    Console.WriteLine("Matricula: ");
+    string matricula = Console.ReadLine();
+
+    Console.WriteLine("Nome: ");
+    string nome = Console.ReadLine();
+
+    Console.WriteLine("Nota 1: ");
+    double nota1 = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine("Nota 2: ");
+    double nota2 = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine($"Matricula: {matricula}");
+    Console.WriteLine($"Nome: {nome}");
+    Console.WriteLine($"Nota1: {nota1} ");
+    Console.WriteLine($"Nota1: {nota2} ");
+
+    Console.WriteLine($"Somar: {calculadora.somar(nota1, nota2)}");
+    Console.WriteLine($"Subtrair: {calculadora.sub(nota1, nota2)}");
+    Console.WriteLine($"Multiplicar: {calculadora.mult(nota1, nota2)}");
+    Console.WriteLine($"Dividir: {calculadora.dividir(nota1, nota2)}");
+}
+
+//invocação da função
+
+Executar();
 
