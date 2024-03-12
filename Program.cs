@@ -3,7 +3,7 @@
 
 Console.WriteLine("Hello, World!");
 
-int a = 5;
+/*int a = 5;
 int b = 10;
 int c = a + b;
 var d = 33;
@@ -25,7 +25,7 @@ bool isverdadeiro = a == b ? true : false;
 /*4. Estruturas de repetição while, do/while, for, foreach;
 5. Arrays.*/
 
-int[] vetor1 = new int[4];
+/*int[] vetor1 = new int[4];
 int[] vetor2 = new int[] { 3, 6, 7, 2 };
 
 for (int i = 0; i < 4; i++)
@@ -59,5 +59,5 @@ int larg = Convert.ToInt32(Console.ReadLine());
 
 int area = larg * alt;
 
-Console.WriteLine("Area: " + area);
+Console.WriteLine("Area: " + area);*/
 
