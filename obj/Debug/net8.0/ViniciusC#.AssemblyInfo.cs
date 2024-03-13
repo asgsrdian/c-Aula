@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViniciusC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e9ab0c6790a68be947353e5d0a2a76045dd4e86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e1597e785df089b2db74406c2c95fb4bd49991c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViniciusC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViniciusC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

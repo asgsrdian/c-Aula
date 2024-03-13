@@ -60,36 +60,64 @@ int larg = Convert.ToInt32(Console.ReadLine());
 int area = larg * alt;
 
 Console.WriteLine("Area: " + area);*/
+/*-------------------------------------------------Aula 2-----------------------------------------------------------------*/
 
-
-//declaração da função
-static void Executar()
+class Program
 {
+    static void Main()
+    {
+        Aluno obj1 = new Aluno();
+        obj1.Matricula = "A";
+        obj1.Nome = "Nome1";
+        obj1.Nota1 = 6;
+        obj1.Nota2 = 9;
 
-    Console.WriteLine("Matricula: ");
-    string matricula = Console.ReadLine();
+        Aluno obj2 = new Aluno();
+        obj1.Matricula = "B";
+        obj1.Nome = "Nome2";
+        obj1.Nota1 = 7;
+        obj1.Nota2 = 8;
 
-    Console.WriteLine("Nome: ");
-    string nome = Console.ReadLine();
+        Aluno obj3 = new Aluno();
+        Aluno obj4 = new Aluno();
+        Aluno obj5 = new Aluno();
 
-    Console.WriteLine("Nota 1: ");
-    double nota1 = Convert.ToDouble(Console.ReadLine());
+        Executar();
 
-    Console.WriteLine("Nota 2: ");
-    double nota2 = Convert.ToDouble(Console.ReadLine());
 
-    Console.WriteLine($"Matricula: {matricula}");
-    Console.WriteLine($"Nome: {nome}");
-    Console.WriteLine($"Nota1: {nota1} ");
-    Console.WriteLine($"Nota1: {nota2} ");
+    }
 
-    Console.WriteLine($"Somar: {calculadora.somar(nota1, nota2)}");
-    Console.WriteLine($"Subtrair: {calculadora.sub(nota1, nota2)}");
-    Console.WriteLine($"Multiplicar: {calculadora.mult(nota1, nota2)}");
-    Console.WriteLine($"Dividir: {calculadora.dividir(nota1, nota2)}");
+    //declaração da função
+    static void Executar()
+    {
+
+        Console.WriteLine("Matricula: ");
+        string? matricula = Console.ReadLine();
+
+        Console.WriteLine("Nome: ");
+        string? nome = Console.ReadLine();
+
+        Console.WriteLine("Nota 1: ");
+        double nota1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Nota 2: ");
+        double nota2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine($"Matricula: {matricula}");
+        Console.WriteLine($"Nome: {nome}");
+        Console.WriteLine($"Nota1: {nota1} ");
+        Console.WriteLine($"Nota1: {nota2} ");
+
+        Console.WriteLine($"Somar: {Calculadora.somar(nota1, nota2)}");
+        Console.WriteLine($"Subtrair: {Calculadora.sub(nota1, nota2)}");
+        Console.WriteLine($"Multiplicar: {Calculadora.mult(nota1, nota2)}");
+        Console.WriteLine($"Dividir: {Calculadora.dividir(nota1, nota2)}");
+    }
 }
+
+
 
 //invocação da função
 
-Executar();
+
 

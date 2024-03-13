@@ -1,6 +1,6 @@
 //funções aritmeticas
 
-class calculadora
+class Calculadora
 {
     public static double somar(double a, double b)
     {

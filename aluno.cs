@@ -1,8 +1,8 @@
-class aluno
+class Aluno
 {
-    public string Matricula;
+    public string Matricula = "";
 
-    public string Nome;
+    public string Nome = "";
 
     public double Nota1;
 
