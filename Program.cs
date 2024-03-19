@@ -62,21 +62,22 @@ int area = larg * alt;
 Console.WriteLine("Area: " + area);*/
 /*-------------------------------------------------Aula 2-----------------------------------------------------------------*/
 
+
 class Program
 {
     static void Main()
     {
-        Aluno obj1 = new Aluno();
+        Aluno obj1 = new Aluno("Joao");
         obj1.Matricula = "A";
-        obj1.Nome = "Nome1";
         obj1.Nota1 = 6;
         obj1.Nota2 = 9;
 
-        Aluno obj2 = new Aluno();
-        obj1.Matricula = "B";
-        obj1.Nome = "Nome2";
-        obj1.Nota1 = 7;
-        obj1.Nota2 = 8;
+        Aluno obj2 = new Aluno("Ana", "123");
+        obj2.Matricula = "B";
+        obj2.Nota1 = 7;
+        obj2.Nota2 = 8;
+
+        Console.WriteLine("Nome 1: " + obj1.Nome);
 
         Aluno obj3 = new Aluno();
         Aluno obj4 = new Aluno();
@@ -87,7 +88,6 @@ class Program
 
     }
 
-    //declaração da função
     static void Executar()
     {
 
@@ -117,7 +117,5 @@ class Program
 
 
 
-//invocação da função
-
-
+/*-------------------------------------------------Aula 3-----------------------------------------------------------------*/
 
