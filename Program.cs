@@ -83,6 +83,23 @@ class Program
         Aluno obj4 = new Aluno();
         Aluno obj5 = new Aluno();
 
+        double variavel = 10;
+        double[] vetNumeros = { 0, 3, 6 };
+
+
+        //lista dinamica
+        List<Aluno> alunos = new List<Aluno>();
+        alunos.Add(obj1);
+        alunos.Add(obj2);
+        alunos.Add(obj3);
+        alunos.Add(obj4);
+        alunos.Add(new Aluno());
+
+        foreach (Aluno aluno in alunos)
+        {
+            Console.WriteLine(aluno);
+        }
+
         Executar();
 
 
